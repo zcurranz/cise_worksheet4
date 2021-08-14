@@ -2,12 +2,12 @@ import React from "react";
 import {
   Route,
   NavLink,
-  BrowserRouter as Router,
+  BrowserRouter as Router, //HashRouter
   Redirect
 } from "react-router-dom";
 
 import Home from "./pages/Home";
-import SEPractice from "./pages/SEPractice";
+import SEPractice from "./pages/SE-Practice";
 import SubmitArticle from "./pages/SubmitArticle"; 
 import NotFoundPage from "./pages/404";
 
